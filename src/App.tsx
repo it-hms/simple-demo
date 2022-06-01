@@ -13,6 +13,7 @@ import {
 import { Header } from "./components/Header";
 
 import { initializeIcons } from "@fluentui/react/lib/Icons";
+import { Search } from "./components/Search";
 
 initializeIcons();
 
@@ -29,7 +30,9 @@ function App() {
         <div className="App">
           <Stack>
             <Header />
-            <div>TODO</div>
+            <div className="TSISearchContainer">
+              <Search />
+            </div>
           </Stack>
         </div>
       </MsalAuthenticationTemplate>

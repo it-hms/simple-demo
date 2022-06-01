@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.TSISearchContainer{
+  width: 500px;
+  height: 500px;
+  margin:20px;
+}
