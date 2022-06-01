@@ -12,6 +12,10 @@ import {
 } from "./AuthCfg";
 import { Header } from "./components/Header";
 
+import { initializeIcons } from "@fluentui/react/lib/Icons";
+
+initializeIcons();
+
 function App() {
   const msalInstance = new PublicClientApplication(msalConfig);
   return (
